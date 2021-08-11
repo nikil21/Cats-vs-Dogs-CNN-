@@ -7,7 +7,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  #if need gpu comment this out
 import cv2                 # working with, mainly resizing, images
 import numpy as np         # dealing with arrays
 from random import shuffle # mixing up or currently ordered data that might lead our network astray in training.
-from tqdm import tqdm      # a nice pretty percentage bar for tasks. Thanks to viewer Daniel BA1/4hler for this suggestion
+from tqdm import tqdm      # a nice pretty percentage bar for tasks. 
 import pickle
 
 
